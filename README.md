@@ -8,6 +8,8 @@
 - [Regulatory Resources](#regulatory-resources)
 - [Quality Management](#quality-management)
 - [Development Standards](#development-standards)
+- [Requirements Engineering](#requirements-engineering)
+- [Cybersecurity Risk Management](#cybersecurity-risk-management)
 - [Validation](#validation)
 - [Security](#security)
 - [AI and ML](#ai-and-ml)
@@ -21,6 +23,8 @@
 
 - [FDA SaMD Information](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd) - Official FDA resources on SaMD
 - [IMDRF SaMD Documents](http://www.imdrf.org/workitems/wi-samd.asp) - International Medical Device Regulators Forum guidance
+- [OpenRegulatory Templates](https://github.com/openregulatory/templates) - Templates for ISO 13485, IEC 62304, ISO 14971 and ISO 62366 compliance.
+
 
 ## Quality Management
 
@@ -31,6 +35,20 @@
 
 - [IEC 62304](https://www.iso.org/standard/38421.html) - Medical device software lifecycle processes
 - [Agile for Medical Device Development](https://www.aami.org/standards/aami-standards-activities/technical-information-reports) - Guidance on agile practices
+
+## Requirements Engineering
+Requirements engineering in medical device software (IEC 62304) is the systematic process of defining, documenting, and maintaining safety and functional requirements that ensure software meets intended use while complying with regulatory standards. It involves rigorous risk management, traceability, and verification to establish that the software functions safely within its medical context.
+- [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version control.
+- [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
+- [ReqView](https://www.reqview.com/) - 
+- [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool. 
+
+
+## Cybersecurity Risk Management
+- [Dependency-Track](https://dependencytrack.org/) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track takes a unique and highly beneficial approach by leveraging the capabilities of Software Bill of Materials (SBOM). This approach provides capabilities that traditional Software Composition Analysis (SCA) solutions cannot achieve.
+
+
+
 
 ## Validation
 
