@@ -5,90 +5,82 @@
 
 ## Contents
 
-- [Regulatory Resources](#regulatory-resources)
 - [Quality Management](#quality-management)
-- [Development Standards](#development-standards)
 - [SaMD Software Development Life Cycle](#samd-sdlc)
-- - [Software Development Planning](#software-development-planning)
-- - [Software Requirements Analysis](#software-requirements-analysis)
-- - [Software Architectural Design](#software-architectural-design)
-- - [Software Detailed Design](#software-detailed-design)
-- - [Software Unit Implementation and Verification](#software-unit-implemenation-and-verification)
-- - [Software Integration and Integration Testing](#software-integration-and-integration-testing)
-- - [Software System Testing](#software-system-testing)
-- - [Software Release](#software-release)
-- - [Cybersecurity Risk Management](#cybersecurity-risk-management)
-- - [Validation](#validation)
-- - [Security](#security)
+	- [Software Architectural Design](#software-architectural-design)
+	- [Software Detailed Design](#software-detailed-design)
+	- [Software Unit Implementation and Verification](#software-unit-implemenation-and-verification)
+	- [Software Integration and Integration Testing](#software-integration-and-integration-testing)
+	- [Software System Testing](#software-system-testing)
+	- [Software Release](#software-release)
+- [Security](#security)
 - [AI and ML](#ai-and-ml)
-- [Books & Guidelines](#books-guidelines)
-- [Events](#events)
+- [Books](#books)
 - [Communities](#communities)
-
-## Regulatory Resources
-
-- [FDA SaMD Information](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd) - Official FDA resources on SaMD
-- [IMDRF SaMD Documents](http://www.imdrf.org/workitems/wi-samd.asp) - International Medical Device Regulators Forum guidance
-- [OpenRegulatory Templates](https://github.com/openregulatory/templates) - Templates for ISO 13485, IEC 62304, ISO 14971 and ISO 62366 compliance.
 
 
 ## Quality Management
+- [OpenRegulatory Templates](https://github.com/openregulatory/templates) - Templates for ISO 13485, IEC 62304, ISO 14971 and ISO 62366 compliance.
 
-- [ISO 13485](https://www.iso.org/standard/59752.html) - Medical devices Quality Management Systems
-- [FDA Quality System Regulation](https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-system-qs-regulationmedical-device-good-manufacturing-practices) - FDA quality requirements
+## SaMD Software Development Life Cycle
 
-## Development Standards
-
-- [IEC 62304](https://www.iso.org/standard/38421.html) - Medical device software lifecycle processes
-- [Agile for Medical Device Development](https://www.aami.org/standards/aami-standards-activities/technical-information-reports) - Guidance on agile practices
-
-## Requirements Engineering
+### Software Requirements Management
 Requirements engineering in medical device software (IEC 62304) is the systematic process of defining, documenting, and maintaining safety and functional requirements that ensure software meets intended use while complying with regulatory standards. It involves rigorous risk management, traceability, and verification to establish that the software functions safely within its medical context.
 - [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version control.
 - [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
-- [ReqView](https://www.reqview.com/) -  Commercial tool 
 - [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool. 
+### Software Architectural Design
+- [C4 Model](https://c4model.com/) - The C4 model is a lean graphical notation technique for modeling the architecture of software systems.
+- [Gaphor](https://gaphor.org/) - Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python.
+- [Cairis](https://cairis.org/) - An open source platform for building security and usability into your software
+- [Archi](https://www.archimatetool.com/) - The Open Source modelling toolkit for creating ArchiMate models and sketches.
+- [Modelio](https://www.modelio.org/index.htm) - The Open Source Modelling Environment.
+- [OSMRT](https://github.com/osrmt/osrmt) - Open Source Requirements Management Tool for defining and managing software requirements.
 
 
-## Cybersecurity Risk Management
+### Software Unit Implementation and Verification
+- [Ferrocene](https://ferrocene.dev/en/) - Ferrocene, a Rust compiler toolchain, is the first open-source toolchain to achieve IEC 62304 Class C qualification for medical device software, enabling developers to use Rust for safety-critical applications in the medical industry.
+### Software Integration and Integration Testing
+### Software System Testing
+- [SonarQube](https://github.com/SonarSource/sonarqube) - : SonarQube  is a powerful open-source platform that can perform static code analysis for a wide range of programming languages, helping to identify potential bugs, security vulnerabilities, and code quality issues without executing the code. 
+#### Cybersecurity Risk Management
 - [Dependency-Track](https://dependencytrack.org/) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track takes a unique and highly beneficial approach by leveraging the capabilities of Software Bill of Materials (SBOM). This approach provides capabilities that traditional Software Composition Analysis (SCA) solutions cannot achieve.
+- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+- [Microsoft Threat Modelling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool)
+- [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates)
+- [AWS Threat Composer](https://awslabs.github.io/threat-composer/workspaces/default/dashboard)
+- [Threagile](https://threagile.io/) - Threagile is the open-source toolkit which allows users to model an architecture with its assets in an agile declarative fashion as a YAML file directly inside the IDE or any YAML editor.
+- [IriusRisk](https://www.iriusrisk.com/community) - automated threat modelling tool built atop draw.io.
+- [Aristiun](https://threat-modeling.com/) - Aristiun gives some helpful example use cases, for example using STRIDE in a healthcare organisation, this tool is a good place to start to increase threat modelling knowledge
+- [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset for making software bill of material (SBOM) operational in DevSecOps.
+- [CycloneDX](https://cyclonedx.org/) - OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for cyber risk reduction.
+- [CycloneDX Tools](https://cyclonedx.org/tool-center/) - Open source and proprietary tools that support the CycloneDX standard.
+- [SPDX](https://spdx.dev/) - An open standard capable of representing systems with software components in as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
+- [SPDX Tools](https://spdx.dev/use/spdx-tools/) - Open source and proprietary tools that support the SPDX standard.
 
 
+### Software Release
+- [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
+- [Betterscan](https://github.com/tcosolutions/betterscan) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC) - Betterscan
+- [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more.
 
-
-## Validation
-
-- [General Principles of Software Validation](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/general-principles-software-validation) - FDA validation guidance
 
 ## Security
 
-- [Premarket Cybersecurity Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-management-cybersecurity-medical-devices) - FDA cybersecurity guidance
+- [Premarket Cybersecurity Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-management-cybersecurity-medical-devices) - US FDA cybersecurity guidance
 
 ## AI and ML
 
-- [AI/ML-Based SaMD Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - FDA's approach to AI/ML
+- [AI/ML-Based SaMD Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - US FDA's approach to AI/ML
 
 ## Books
 
 - [Medical Device Software Development](https://www.crcpress.com/Medical-Device-Software-Verification-Validation-and-Compliance/Vogel/p/book/9781439806661) - Software verification and validation
 
-## Events
-
-- [MedTech Conference](https://themedtechconference.com/) - Annual industry conference
-- [AdvaMed](https://www.advamed.org/events/) - Medical technology events
-
 ## Communities
 
 - [Medical Devices Groups](https://www.linkedin.com/groups/78665/) - Professional communities
 
-## Tools
-
-- [Regulatory Documentation Systems](https://about.gitlab.com/solutions/healthcare/) - Document management tools
-- [Quality Management Software](https://www.mastercontrol.com/) - QMS solutions
-
-## Training
-
-- [Regulatory Training](https://www.raps.org/training) - Professional education courses
 
 ## Contribute
 
