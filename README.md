@@ -8,16 +8,22 @@
 - [Regulatory Resources](#regulatory-resources)
 - [Quality Management](#quality-management)
 - [Development Standards](#development-standards)
-- [Requirements Engineering](#requirements-engineering)
-- [Cybersecurity Risk Management](#cybersecurity-risk-management)
-- [Validation](#validation)
-- [Security](#security)
+- [SaMD Software Development Life Cycle](#samd-sdlc)
+- - [Software Development Planning](#software-development-planning)
+- - [Software Requirements Analysis](#software-requirements-analysis)
+- - [Software Architectural Design](#software-architectural-design)
+- - [Software Detailed Design](#software-detailed-design)
+- - [Software Unit Implementation and Verification](#software-unit-implemenation-and-verification)
+- - [Software Integration and Integration Testing](#software-integration-and-integration-testing)
+- - [Software System Testing](#software-system-testing)
+- - [Software Release](#software-release)
+- - [Cybersecurity Risk Management](#cybersecurity-risk-management)
+- - [Validation](#validation)
+- - [Security](#security)
 - [AI and ML](#ai-and-ml)
-- [Books](#books)
+- [Books & Guidelines](#books-guidelines)
 - [Events](#events)
 - [Communities](#communities)
-- [Tools](#tools)
-- [Training](#training)
 
 ## Regulatory Resources
 
@@ -40,7 +46,7 @@
 Requirements engineering in medical device software (IEC 62304) is the systematic process of defining, documenting, and maintaining safety and functional requirements that ensure software meets intended use while complying with regulatory standards. It involves rigorous risk management, traceability, and verification to establish that the software functions safely within its medical context.
 - [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version control.
 - [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
-- [ReqView](https://www.reqview.com/) - 
+- [ReqView](https://www.reqview.com/) -  Commercial tool 
 - [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool. 
 
 
