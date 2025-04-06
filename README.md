@@ -15,8 +15,6 @@
 	- [Software Release](#software-release)
 - [Security](#security)
 - [AI and ML](#ai-and-ml)
-- [Books](#books)
-- [Communities](#communities)
 
 
 ## Quality Management
@@ -27,16 +25,16 @@
 ### Software Requirements Management
 Requirements engineering in medical device software (IEC 62304) is the systematic process of defining, documenting, and maintaining safety and functional requirements that ensure software meets intended use while complying with regulatory standards. It involves rigorous risk management, traceability, and verification to establish that the software functions safely within its medical context.
 - [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version control.
+- [rtm_doorstop](https://github.com/asimon-1/rtm_doorstop) - A tool to generate Requirement Traceability Matrices (RTMs) from Doorstop documents.
 - [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
 - [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool. 
+- [OSMRT](https://github.com/osrmt/osrmt) - Open Source Requirements Management Tool for defining and managing software requirements.
 ### Software Architectural Design
-- [C4 Model](https://c4model.com/) - The C4 model is a lean graphical notation technique for modeling the architecture of software systems.
-- [Gaphor](https://gaphor.org/) - Gaphor is a UML, SysML, RAAML, and C4 modeling application written in Python.
+- [C4 Model](https://c4model.com/) - The C4 model is a lean graphical notation technique for modelling the architecture of software systems.
+- [Gaphor](https://gaphor.org/) - Gaphor is a UML, SysML, RAAML, and C4 modelling application written in Python.
 - [Cairis](https://cairis.org/) - An open source platform for building security and usability into your software
 - [Archi](https://www.archimatetool.com/) - The Open Source modelling toolkit for creating ArchiMate models and sketches.
 - [Modelio](https://www.modelio.org/index.htm) - The Open Source Modelling Environment.
-- [OSMRT](https://github.com/osrmt/osrmt) - Open Source Requirements Management Tool for defining and managing software requirements.
-
 
 ### Software Unit Implementation and Verification
 - [Ferrocene](https://ferrocene.dev/en/) - Ferrocene, a Rust compiler toolchain, is the first open-source toolchain to achieve IEC 62304 Class C qualification for medical device software, enabling developers to use Rust for safety-critical applications in the medical industry.
@@ -50,18 +48,20 @@ Requirements engineering in medical device software (IEC 62304) is the systemati
 - [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates)
 - [AWS Threat Composer](https://awslabs.github.io/threat-composer/workspaces/default/dashboard)
 - [Threagile](https://threagile.io/) - Threagile is the open-source toolkit which allows users to model an architecture with its assets in an agile declarative fashion as a YAML file directly inside the IDE or any YAML editor.
-- [IriusRisk](https://www.iriusrisk.com/community) - automated threat modelling tool built atop draw.io.
+- [IriusRisk](https://www.iriusrisk.com/community) - An automated threat modelling tool built atop draw.io.
 - [Aristiun](https://threat-modeling.com/) - Aristiun gives some helpful example use cases, for example using STRIDE in a healthcare organisation, this tool is a good place to start to increase threat modelling knowledge
-- [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset for making software bill of material (SBOM) operational in DevSecOps.
-- [CycloneDX](https://cyclonedx.org/) - OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for cyber risk reduction.
+- [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset for making Software Bill of Materials (SBOM) operational in DevSecOps.
+- [CycloneDX](https://cyclonedx.org/) - OWASP CycloneDX is a full-stack Software Bill of Materials (SBOM) standard that provides advanced supply chain capabilities for cyber risk reduction.
 - [CycloneDX Tools](https://cyclonedx.org/tool-center/) - Open source and proprietary tools that support the CycloneDX standard.
-- [SPDX](https://spdx.dev/) - An open standard capable of representing systems with software components in as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
-- [SPDX Tools](https://spdx.dev/use/spdx-tools/) - Open source and proprietary tools that support the SPDX standard.
+- [SPDX](https://spdx.dev/) - An open standard capable of representing systems with software components in as  Software Bill of Materials (SBOMs) and other AI, data and security references supporting a range of risk management use cases.
+- [SPDX Tools](https://spdx.dev/use/spdx-tools/) - Open source and proprietary tools that support the SPDX SBOM standard.
+- [Syft](https://github.com/anchore/syft) -
+A command line tool and Go library for generating SBOMs from container images and filesystems. Works seamlessly with [Grype](#grype).
 
 
 ### Software Release
-- [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
-- [Betterscan](https://github.com/tcosolutions/betterscan) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC) - Betterscan
+- [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems. Works seamlessly with [Syft](#syft), SPDX, and CycloneDX SBOM formats.
+- [Betterscan](https://github.com/tcosolutions/betterscan) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC)
 - [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more.
 
 
@@ -73,13 +73,6 @@ Requirements engineering in medical device software (IEC 62304) is the systemati
 
 - [AI/ML-Based SaMD Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - US FDA's approach to AI/ML
 
-## Books
-
-- [Medical Device Software Development](https://www.crcpress.com/Medical-Device-Software-Verification-Validation-and-Compliance/Vogel/p/book/9781439806661) - Software verification and validation
-
-## Communities
-
-- [Medical Devices Groups](https://www.linkedin.com/groups/78665/) - Professional communities
 
 
 ## Contribute
