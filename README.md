@@ -28,7 +28,9 @@ Requirements engineering in medical device software (IEC 62304) is the systemati
 - [rtm_doorstop](https://github.com/asimon-1/rtm_doorstop) - A tool to generate Requirement Traceability Matrices (RTMs) from Doorstop documents.
 - [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
 - [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool. 
-- [OSMRT](https://github.com/osrmt/osrmt) - Open Source Requirements Management Tool for defining and managing software requirements.
+- [OSRMT](https://github.com/osrmt/osrmt) - Open Source Requirements Management Tool for defining and managing software requirements.
+- [RDM](https://github.com/innolitics/rdm) - Regulatory Documentation Manager. Streamlines 62304, 14971, and 510(k) documentation for software projects.
+- [Tuleap](https://www.tuleap.org/) - ALM
 ### Software Architectural Design
 - [C4 Model](https://c4model.com/) - The C4 model is a lean graphical notation technique for modelling the architecture of software systems.
 - [Gaphor](https://gaphor.org/) - Gaphor is a UML, SysML, RAAML, and C4 modelling application written in Python.
@@ -42,7 +44,7 @@ Requirements engineering in medical device software (IEC 62304) is the systemati
 ### Software System Testing
 - [SonarQube](https://github.com/SonarSource/sonarqube) - : SonarQube  is a powerful open-source platform that can perform static code analysis for a wide range of programming languages, helping to identify potential bugs, security vulnerabilities, and code quality issues without executing the code. 
 #### Cybersecurity Risk Management
-- [Dependency-Track](https://dependencytrack.org/) - Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track takes a unique and highly beneficial approach by leveraging the capabilities of Software Bill of Materials (SBOM). This approach provides capabilities that traditional Software Composition Analysis (SCA) solutions cannot achieve.
+- [Dependency-Track](https://dependencytrack.org/) - OWASP Dependency-Track is an intelligent Component Analysis platform that allows organisations to identify and reduce risk in the software supply chain. Consumes SBOM to identify associated CVEs.
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 - [Microsoft Threat Modelling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool)
 - [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates)
@@ -51,12 +53,20 @@ Requirements engineering in medical device software (IEC 62304) is the systemati
 - [IriusRisk](https://www.iriusrisk.com/community) - An automated threat modelling tool built atop draw.io.
 - [Aristiun](https://threat-modeling.com/) - Aristiun gives some helpful example use cases, for example using STRIDE in a healthcare organisation, this tool is a good place to start to increase threat modelling knowledge
 - [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset for making Software Bill of Materials (SBOM) operational in DevSecOps.
+- [](https://app.interlynk.io/) - hosted app that checks SBOMs for NTIA and FDA fields
+- [Snyk SBOM Checker](https://snyk.io/code-checker/sbom-security/)
 - [CycloneDX](https://cyclonedx.org/) - OWASP CycloneDX is a full-stack Software Bill of Materials (SBOM) standard that provides advanced supply chain capabilities for cyber risk reduction.
 - [CycloneDX Tools](https://cyclonedx.org/tool-center/) - Open source and proprietary tools that support the CycloneDX standard.
 - [SPDX](https://spdx.dev/) - An open standard capable of representing systems with software components in as  Software Bill of Materials (SBOMs) and other AI, data and security references supporting a range of risk management use cases.
 - [SPDX Tools](https://spdx.dev/use/spdx-tools/) - Open source and proprietary tools that support the SPDX SBOM standard.
-- [Syft](https://github.com/anchore/syft) -
-A command line tool and Go library for generating SBOMs from container images and filesystems. Works seamlessly with [Grype](#grype).
+- [Syft](https://github.com/anchore/syft) - A command line tool and Go library for generating SBOMs from container images and filesystems. Works seamlessly with [Grype](#grype).
+- [DecoderRing](https://github.com/DanBeard/DecoderRIng)
+- [](https://github.com/spdx/spdx-online-tools)
+- [](https://github.com/lfscanning)
+- [](https://github.com/CycloneDX/bom-examples)
+- [](https://github.com/CERTCC/SBOM/)
+- [](https://github.com/a13xh7/QaraTMS)
+- [Kiwi TCMS](https://kiwitcms.org/)
 
 
 ### Software Release
@@ -72,7 +82,8 @@ A command line tool and Go library for generating SBOMs from container images an
 ## AI and ML
 
 - [AI/ML-Based SaMD Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - US FDA's approach to AI/ML
-
+- [PLOT4ai](https://plot4.ai/) - A threat modelling library to help you build responsible AI.
+- [LINDDUN](https://linddun.org/) - Privacy threat modelling methods.
 
 
 ## Contribute
