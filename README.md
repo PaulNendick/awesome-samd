@@ -11,10 +11,10 @@
 	- [Application Lifecycle Management](#application-lifecycle-management)
 	- [Software Requirements Management](#software-requirements-management)
 	- [Software Architectural Design](#software-architectural-design)
-	- [Threat Modelling](#threat-modelling)
+	- [Security Analysis](#security-analysis)
 	- [Software Unit Implementation](#software-unit-implemenation)
 	- [Verification and Validation](#verification-and-validatiom)
-	- [Cybersecurity](#software-system-testing)
+	- [Cybersecurity](#cybersecurity)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -31,16 +31,15 @@ Resources relevant to the processes, procedures, and responsibilities required t
 
 ## SaMD Software Development Life Cycle
 ### Application Lifecycle Management
-- [Tuleap](https://www.tuleap.org/) - open source
-- [Cairis](https://github.com/cairis-platform/cairis) - An open source platform for building security and usability into your software
+- [Tuleap](https://www.tuleap.org/) - open source/freemium integrated Application Lifecycle Management (ALM) solution that combines portfolio, project management, and development tools with ISO 13485 and IEC 62304-specific capabilities.
+
 
 ### Software Requirements Management
 Requirements engineering in SaMD is the systematic process of defining, documenting, and maintaining safety and functional requirements that ensure software meets intended use while complying with regulatory standards. It involves rigorous risk management, traceability, and verification to establish that the software functions safely within its medical context.
 - [Doorstop](https://github.com/doorstop-dev/doorstop) - Requirements management using version control.
 - [rtm_doorstop](https://github.com/asimon-1/rtm_doorstop) - A tool to generate Requirement Traceability Matrices (RTMs) from Doorstop documents.
 - [rmToo](https://github.com/florath/rmtoo) - Free and Open Source Requirements Management Tool, optimised for command-line handling of requirements.
-- [RDM](https://github.com/innolitics/rdm) - Regulatory Documentation Manager. Provides Markdown templates and Python scripts to manage IEC 62304, ISO 14971, and FDA 510(k) documentation for software projects.
-- [Reqflow](https://goeb.github.io/reqflow/) - Reqflow is a free and open-source tool for traceability of requirements across documents, designed to analyse documents with speed and efficiency.
+- [RDM](https://github.com/innolitics/rdm) - Regulatory Documentation Manager provides Markdown templates and Python scripts to manage IEC 62304, ISO 14971, and FDA 510(k) documentation.
 
 ### Software Architectural Design
 - [C4 Model](https://c4model.com/) - The C4 model is a lean graphical notation technique for modelling the architecture of software systems.
@@ -48,39 +47,39 @@ Requirements engineering in SaMD is the systematic process of defining, document
 - [Archi](https://www.archimatetool.com/) - The Open Source modelling toolkit for creating ArchiMate models and sketches.
 - [Modelio](https://www.modelio.org/index.htm) - The Open Source Modelling Environment.
 
-### Threat Modelling
+### Security Analysis
 - [Threagile](https://threagile.io/) - Threagile is the open-source threat modelling toolkit which allows users to model an architecture with its assets in an agile declarative fashion as a YAML file directly inside the IDE or any YAML editor.
 - [IriusRisk](https://www.iriusrisk.com/community) - An automated threat modelling tool built atop draw.io.
 - [Aristiun](https://threat-modeling.com/) - Aristiun gives some helpful example use cases, for example using STRIDE in a healthcare organisation, this tool is a good place to start to increase threat modelling knowledge
 - [PLOT4ai](https://plot4.ai/) - A threat modelling library to help you build responsible AI.
 - [LINDDUN](https://linddun.org/) - Privacy threat modelling methods.
-- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
-- [Microsoft Threat Modelling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) - Free 
-- [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates) - 
-- [AWS Threat Composer](https://awslabs.github.io/threat-composer/workspaces/default/dashboard) - Free 
-
+- [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - creates threat model diagrams supporting STRIDE,  LINDDUN, CIA, DIE, and PLOT4ai methodologies. Generates modelling diagrams and implements a rule engine to auto-generate threats and their mitigations.
+- [Microsoft Threat Modelling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) - Free threat modelling tool for Azure users.
+- [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates) - templates for above including for a medical device.
+- [AWS Threat Composer](https://awslabs.github.io/threat-composer/workspaces/default/dashboard) - Free threat modelling tool for AWS users.
+- [Cairis](https://github.com/cairis-platform/cairis) - An open source platform for usability, requirements, and risk analysis.
 ### Software Unit Implementation
 - [Ferrocene](https://ferrocene.dev/en/) - Ferrocene, a Rust compiler toolchain, is the first open-source toolchain to achieve IEC 62304 Class C qualification for medical device software, enabling developers to use Rust for safety-critical applications in the medical industry.
 
 ### Verification and Validation
-- [QaraTMS](https://github.com/a13xh7/QaraTMS)
-- [Kiwi TCMS](https://kiwitcms.org/)
+- [QaraTMS](https://github.com/a13xh7/QaraTMS) - open source test management software for managing test suites, test cases, test plans, test runs and documentation.
+- [Kiwi TCMS](https://kiwitcms.org/) - open source test management system for both manual and automated testing. It features bug tracker integration (JIRA, ADO, more), search, access control, test automation framework plugins, visual reports and an API layer.
 
 ### Cybersecurity
 - [SonarQube](https://github.com/SonarSource/sonarqube) - SonarQube  is a powerful open-source platform that can perform static code analysis (SAST) for a wide range of programming languages, helping to identify potential bugs, security vulnerabilities, and code quality issues without executing the code. 
 - [Dependency-Track](https://dependencytrack.org/) - OWASP Dependency-Track is an intelligent Component Analysis platform that allows organisations to identify and reduce risk in the software supply chain. Consumes SBOM to identify associated CVEs.
-- [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset collectionm for making Software Bill of Materials (SBOM) operational in DevSecOps.
-- [app.interlynk.io](https://app.interlynk.io/) - hosted app that checks SBOMs for NTIA and FDA fields.
+- [Interlynk](https://github.com/interlynk-io) - Interlynk open source toolset collection for making Software Bill of Materials (SBOM) operational in DevSecOps.
+- [app.interlynk.io](https://app.interlynk.io/) - freemium online collaboration platform that automates CVE checks for  SBOMs across NTIA and FDA fields.
 - [CycloneDX](https://cyclonedx.org/) - OWASP CycloneDX is a full-stack Software Bill of Materials (SBOM) standard that provides advanced supply chain capabilities for cyber risk reduction.
 - [CycloneDX Tools](https://cyclonedx.org/tool-center/) - Open source and proprietary tools that support the CycloneDX standard.
 - [SPDX](https://spdx.dev/) - An open standard capable of representing systems with software components in as  Software Bill of Materials (SBOMs) and other AI, data and security references supporting a range of risk management use cases.
 - [SPDX Tools](https://spdx.dev/use/spdx-tools/) - Open source and proprietary tools that support the SPDX SBOM standard.
 - [Syft](https://github.com/anchore/syft) - A command line tool and Go library for generating SBOMs from container images and filesystems. Works seamlessly with [Grype](#grype).
 - [DecoderRing](https://github.com/DanBeard/DecoderRIng)
-- [](https://github.com/spdx/spdx-online-tools)
-- [](https://github.com/lfscanning)
-- [](https://github.com/CycloneDX/bom-examples)
-- [](https://github.com/CERTCC/SBOM/)
+- [x](https://github.com/spdx/spdx-online-tools)
+- [x](https://github.com/lfscanning)
+- [x](https://github.com/CycloneDX/bom-examples)
+- [x](https://github.com/CERTCC/SBOM/)
 - [Grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems. Works seamlessly with [Syft](#syft), SPDX, and CycloneDX SBOM formats.
 - [Betterscan](https://github.com/tcosolutions/betterscan) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC)
 - [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more.
