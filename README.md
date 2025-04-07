@@ -61,7 +61,7 @@ Threat modelling is a structured process that helps identify potential threats a
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) - creates threat model diagrams supporting STRIDE,  LINDDUN, CIA, DIE, and PLOT4ai methodologies. Generates modelling diagrams and implements a rule engine to auto-generate threats and their mitigations.
 - [Microsoft Threat Modelling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) - Free threat modelling tool (Windows only).
 - [Microsoft Threat Modelling Templates](https://github.com/microsoft/threat-modeling-templates) - templates for above including for a medical device.
-- [AWS Threat Composer](https://awslabs.github.io/threat-composer/workspaces/default/dashboard) - Free threat modelling tool for AWS users.
+- [AWS Threat Composer](https://github.com/awslabs/threat-composer) - Open source threat modelling tool.
 ### Software Unit Implementation
 Software unit implementation is a critical phase in the software development lifecycle where developers translate designs and specifications into actual, working code. 
 - [Ferrocene](https://ferrocene.dev/en/) - Ferrocene, a Rust compiler toolchain, is the first open-source toolchain to achieve IEC 62304 Class C qualification for medical device software, enabling developers to use Rust for safety-critical applications in the medical industry.
