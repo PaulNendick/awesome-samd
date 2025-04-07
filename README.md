@@ -22,7 +22,7 @@
 ## Standards and Guidelines
 Internationally recognised standards and guidelines relevant to the development of SaMD.
 - [IBR Standards Portal](https://ibr.ansi.org/Standards/iso3.aspx) - read-only copy of ISO 13485 standard.
-- [Premarket Cybersecurity Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-management-cybersecurity-medical-devices) - US FDA cybersecurity guidance
+- [Premarket Cybersecurity Guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/content-premarket-submissions-management-cybersecurity-medical-devices) - US FDA cybersecurity guidance.
 - [AI/ML-Based SaMD Action Plan](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device) - US FDA's approach to AI/ML.
 
 ## Quality Management
