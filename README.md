@@ -76,7 +76,7 @@ Cybersecurity focuses on protecting patient data and ensuring the safe and relia
 - [SonarQube](https://github.com/SonarSource/sonarqube) - SonarQube  is a powerful open-source platform that can perform static code analysis (SAST) for a wide range of programming languages, helping to identify potential bugs, security vulnerabilities, and code quality issues without executing the code. 
 - [Betterscan](https://github.com/tcosolutions/betterscan) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC)
 - [OWASP ZAP](https://www.zaproxy.org/) - OWASP ZAP (Zed Attack Proxy) is a free, open-source web application security scanner and penetration testing tool developed by the Open Web Application Security Project (OWASP) that helps identify vulnerabilities in web applications. 
-### Software Bill of Materials 
+#### Software Bill of Materials 
 A Software Bill of Materials (SBOM) is a comprehensive list of all the software components used in a product, including open-source libraries, third-party components, and proprietary software. The SBOM helps identify what software is running within the device, providing transparency and allowing for effective management of vulnerabilities.
 - [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more.
 - [OWASP Dependency-Track](https://dependencytrack.org/) - OWASP Dependency-Track is an intelligent Component Analysis platform that allows organisations to identify and reduce risk in the software supply chain. Consumes SBOM to identify associated CVEs.
